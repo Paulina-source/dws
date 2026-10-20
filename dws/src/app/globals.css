@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-purple: #25023a;
+  --color-purple-2: #3b1056;
+  --color-gold: #f2b31a;
+  --color-gold-ink: #3a2700;
+  --color-surface: #ffffff;
+  --color-page: #faf8fc;
+  --color-line: #e4dbed;
+  --color-ink: #1d1128;
+  --color-muted: #675b76;
+  --font-sans: var(--font-barlow), system-ui, sans-serif;
+  --font-display: var(--font-barlow-condensed), "Arial Narrow", sans-serif;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+}
